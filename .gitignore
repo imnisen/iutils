@@ -1,0 +1,63 @@
+# Common Lisp
+*.fasl
+*.fas
+*.lib
+*.x86f
+*.sparcf
+*.ufsl
+*.dfsl
+*.pfsl
+*.d64fsl
+*.p64fsl
+*.lx64fsl
+*.lx32fsl
+*.dx64fsl
+*.dx32fsl
+*.fx64fsl
+*.fx32fsl
+*.sx64fsl
+*.sx32fsl
+*.wx64fsl
+*.wx32fsl
+*.abcl
+*.lo
+*.la
+*.a
+*.so
+*.dylib
+
+# SBCL
+*.core
+sbcl-*
+
+# Backup files
+*~
+*.bak
+\#*\#
+.\#*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Editor specific
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# Build artifacts
+/build/
+/dist/
+
+# Dependencies
+/quicklisp/
+/local-projects/
+
+# Test coverage
+/coverage/
+
+# Documentation build
+/docs/_build/
